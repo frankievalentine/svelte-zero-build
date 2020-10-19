@@ -1,5 +1,7 @@
 {
   "plugins": [
+    "babel-plugin-react-require",
+    "react-hot-loader/babel",
     "babel-plugin-transform-zero-dirname-filename",
     "@babel/plugin-transform-runtime",
     [
