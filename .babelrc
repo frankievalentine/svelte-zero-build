@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "babel-plugin-transform-zero-dirname-filename",
+    "@babel/plugin-transform-runtime",
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-private-methods",
+      {
+        "loose": true
+      }
+    ]
+  ]
+}
